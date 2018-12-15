@@ -12,10 +12,13 @@
             $account = new Account($username, $password);
 
             if ($account->Verify()) {
-                $_SESSION['account'] = $account;
+                $_SESSION['account'] = serialize($account);
             }
             echo $username;
             //include '../view/main.php';
         }
     //}
+
+    header('location: http://localhost/ooad/view/web/products.php');
+    //var_dump($_SESSION['account']);
 ?>

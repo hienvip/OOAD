@@ -15,7 +15,7 @@
             $connection->set_charset('utf8');
             
             $result = $connection->Query($sql);
-            var_dump($result);
+            //var_dump($result);
             $connection->close();
             return $result;
         }

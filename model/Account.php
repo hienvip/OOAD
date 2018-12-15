@@ -15,6 +15,10 @@
 
         }
 
+        public function GetID() {
+            return $this->info['ID'];
+        }
+
         public function __call($name, $arg) {
             if (isset($this->info)) {
                 $name = strtoupper($name);
@@ -38,7 +42,7 @@
 
                 $query_result = $db->Query("SELECT * FROM ACCOUNT WHERE ACCOUNT.USERNAME = '$user' AND ACCOUNT.PASSWORD = '$pass'");
 
-                var_dump($query_result);
+                //var_dump($query_result);
                 if ($query_result->num_rows > 0) {
                     $this->info = $query_result->fetch_assoc();
                 
