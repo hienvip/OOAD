@@ -2,6 +2,7 @@
     //session_write_close();
     session_start();
     require_once '../model/Book.php';
+    require_once '../model/Account.php';
 
     if (!isset($_SESSION)) {
         header('location: http://localhost/ooad/view/web/login.php');
@@ -21,6 +22,8 @@
                     var_dump($book);
                     $book->Borrow($account->GetID());
                 }
+
+                header('location: http://localhost/ooad/view/web/products.php');
             }
         }
     }

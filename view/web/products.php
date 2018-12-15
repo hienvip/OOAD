@@ -51,13 +51,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="agileits_header">
 		<div class="container">
 			<div class="w3l_offers">
-				<p>SALE UP TO 70% OFF. USE CODE "SALE70%" . <a href="products.html">SHOP NOW</a></p>
+				<p> <a href="products.html"></a></p>
 			</div>
 			<div class="agile-login">
 				<ul>
-					<li><a href="registered.html"> Create Account </a></li>
-					<li><a href="login.html">Login</a></li>
-					<li><a href="contact.html">Help</a></li>
+					<?php
+						if (isset($_SESSION['account'])) {
+							echo '<li><a href="login.php">Login</a></li>';
+						}
+					?>
+					
+					
+					
 					
 				</ul>
 			</div>
@@ -76,21 +81,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 		<div class="w3ls_logo_products_left1">
 				<ul class="phone_email">
-					<li><i class="fa fa-phone" aria-hidden="true"></i>Order online or call us : (+0123) 234 567</li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i></li>
 					
 				</ul>
 			</div>
 			<div class="w3ls_logo_products_left">
-				<h1><a href="index.html">super Market</a></h1>
+				<h1><a href="index.html">Open library</a></h1>
 			</div>
 		<div class="w3l_search">
-			<form action="#" method="post">
-				<input type="search" name="Search" placeholder="Search for a Product..." required="">
-				<button type="submit" class="btn btn-default search" aria-label="Left Align">
-					<i class="fa fa-search" aria-hidden="true"> </i>
-				</button>
-				<div class="clearfix"></div>
-			</form>
+			
 		</div>
 			
 			<div class="clearfix"> </div>
@@ -112,7 +111,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div> 
 							<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 								<ul class="nav navbar-nav">
-									<li class="active"><a href="index.html" class="act">Home</a></li>	
+									<li class="active"><a href="products.php" class="act">Books</a></li>	
 									<!-- Mega Menu -->
 									<?php
 										if (isset($_SESSION['account'])) {
@@ -203,23 +202,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="clearfix"> </div>
 				</div>
 				<nav class="numbering">
-					<ul class="pagination paging">
-						<li>
-							<a href="#" aria-label="Previous">
-								<span aria-hidden="true">&laquo;</span>
-							</a>
-						</li>
-						<li class="active"><a href="#">1<span class="sr-only">(current)</span></a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">5</a></li>
-						<li>
-							<a href="#" aria-label="Next">
-							<span aria-hidden="true">&raquo;</span>
-							</a>
-						</li>
-					</ul>
+					
 				</nav>
 			</div>
 			<div class="clearfix"> </div>
@@ -230,47 +213,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="footer">
 		<div class="container">
 			<div class="w3_footer_grids">
-				<div class="col-md-3 w3_footer_grid">
-					<h3>Contact</h3>
-					
-					<ul class="address">
-						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>1234k Avenue, 4th block, <span>New York City.</span></li>
-						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
-						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 567</li>
-					</ul>
-				</div>
-				<div class="col-md-3 w3_footer_grid">
-					<h3>Information</h3>
-					<ul class="info"> 
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="about.html">About Us</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="contact.html">Contact Us</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="short-codes.html">Short Codes</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="faq.html">FAQ's</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="products.html">Special Products</a></li>
-					</ul>
-				</div>
-				<div class="col-md-3 w3_footer_grid">
-					<h3>Category</h3>
-					<ul class="info"> 
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="groceries.html">Groceries</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="household.html">Household</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="personalcare.html">Personal Care</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="packagedfoods.html">Packaged Foods</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="beverages.html">Beverages</a></li>
-					</ul>
-				</div>
-				<div class="col-md-3 w3_footer_grid">
-					<h3>Profile</h3>
-					<ul class="info"> 
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="products.html">Store</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="checkout.html">My Cart</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="login.html">Login</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="registered.html">Create Account</a></li>
-					</ul>
-					
-					
-				</div>
-				<div class="clearfix"> </div>
+				
 			</div>
 		</div>
 		

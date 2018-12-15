@@ -49,13 +49,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="agileits_header">
 		<div class="container">
 			<div class="w3l_offers">
-				<p>SALE UP TO 70% OFF. USE CODE "SALE70%" . <a href="products.html">SHOP NOW</a></p>
+				
 			</div>
 			<div class="agile-login">
 				<ul>
-					<li><a href="registered.html"> Create Account </a></li>
-					<li><a href="login.html">Login</a></li>
-					<li><a href="contact.html">Help</a></li>
+					
 					
 				</ul>
 			</div>
@@ -74,21 +72,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 		<div class="w3ls_logo_products_left1">
 				<ul class="phone_email">
-					<li><i class="fa fa-phone" aria-hidden="true"></i>Order online or call us : (+0123) 234 567</li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i></li>
 					
 				</ul>
 			</div>
 			<div class="w3ls_logo_products_left">
-				<h1><a href="index.html">super Market</a></h1>
+				<h1><a href="index.html">Open library</a></h1>
 			</div>
 		<div class="w3l_search">
-			<form action="#" method="post">
-				<input type="search" name="Search" placeholder="Search for a Product..." required="">
-				<button type="submit" class="btn btn-default search" aria-label="Left Align">
-					<i class="fa fa-search" aria-hidden="true"> </i>
-				</button>
-				<div class="clearfix"></div>
-			</form>
+			
 		</div>
 			
 			<div class="clearfix"> </div>
@@ -112,106 +104,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<ul class="nav navbar-nav">
 									<li class="active"><a href="index.html" class="act">Home</a></li>	
 									<!-- Mega Menu -->
-									<li class="dropdown">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Groceries<b class="caret"></b></a>
-										<ul class="dropdown-menu multi-column columns-3">
-											<div class="row">
-												<div class="multi-gd-img">
-													<ul class="multi-column-dropdown">
-														<h6>All Groceries</h6>
-														<li><a href="groceries.html">Dals & Pulses</a></li>
-														<li><a href="groceries.html">Almonds</a></li>
-														<li><a href="groceries.html">Cashews</a></li>
-														<li><a href="groceries.html">Dry Fruit</a></li>
-														<li><a href="groceries.html"> Mukhwas </a></li>
-														<li><a href="groceries.html">Rice & Rice Products</a></li>
-													</ul>
-												</div>	
-												
-											</div>
-										</ul>
-									</li>
-									<li class="dropdown">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Household<b class="caret"></b></a>
-										<ul class="dropdown-menu multi-column columns-3">
-											<div class="row">
-												<div class="multi-gd-img">
-													<ul class="multi-column-dropdown">
-														<h6>All Household</h6>
-														<li><a href="household.html">Cookware</a></li>
-														<li><a href="household.html">Dust Pans</a></li>
-														<li><a href="household.html">Scrubbers</a></li>
-														<li><a href="household.html">Dust Cloth</a></li>
-														<li><a href="household.html"> Mops </a></li>
-														<li><a href="household.html">Kitchenware</a></li>
-													</ul>
-												</div>
-												
-												
-											</div>
-										</ul>
-									</li>
-									<li class="dropdown">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Personal Care<b class="caret"></b></a>
-										<ul class="dropdown-menu multi-column columns-3">
-											<div class="row">
-												<div class="multi-gd-img">
-													<ul class="multi-column-dropdown">
-														<h6>Baby Care</h6>
-														<li><a href="personalcare.html">Baby Soap</a></li>
-														<li><a href="personalcare.html">Baby Care Accessories</a></li>
-														<li><a href="personalcare.html">Baby Oil & Shampoos</a></li>
-														<li><a href="personalcare.html">Baby Creams & Lotion</a></li>
-														<li><a href="personalcare.html"> Baby Powder</a></li>
-														<li><a href="personalcare.html">Diapers & Wipes</a></li>
-													</ul>
-												</div>
-												
-											</div>
-										</ul>
-									</li>
-									<li class="dropdown">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Packaged Foods<b class="caret"></b></a>
-										<ul class="dropdown-menu multi-column columns-3">
-											<div class="row">
-												<div class="multi-gd-img">
-													<ul class="multi-column-dropdown">
-														<h6>All Accessories</h6>
-														<li><a href="packagedfoods.html">Baby Food</a></li>
-														<li><a href="packagedfoods.html">Dessert Items</a></li>
-														<li><a href="packagedfoods.html">Biscuits</a></li>
-														<li><a href="packagedfoods.html">Breakfast Cereals</a></li>
-														<li><a href="packagedfoods.html"> Canned Food </a></li>
-														<li><a href="packagedfoods.html">Chocolates & Sweets</a></li>
-													</ul>
-												</div>
-												
-											
-											</div>
-										</ul>
-									</li>
-									<li class="dropdown">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Beverages<b class="caret"></b></a>
-										<ul class="dropdown-menu multi-column columns-3">
-											<div class="row">
-												<div class="multi-gd-img">
-													<ul class="multi-column-dropdown">
-														<h6>Tea & Coeffe</h6>
-														<li><a href="beverages.html">Green Tea</a></li>
-														<li><a href="beverages.html">Ground Coffee</a></li>
-														<li><a href="beverages.html">Herbal Tea</a></li>
-														<li><a href="beverages.html">Instant Coffee</a></li>
-														<li><a href="beverages.html"> Tea </a></li>
-														<li><a href="beverages.html">Tea Bags</a></li>
-													</ul>
-												</div>
-							
-											</div>
-										</ul>
-									</li>
-									<li><a href="gourmet.html">Gourmet</a></li>
-									<li><a href="offers.html">Offers</a></li>
-									<li><a href="contact.html">Contact</a></li>
+									
 								</ul>
 							</div>
 							</nav>
@@ -238,20 +131,31 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					
 					<tr class="rem1"><td class="invert">1</td>
 						<?php
-							require '../../model/Database.php';
-							$accId = $_SESSION['account']->id('');
+							require_once '../../model/Database.php';
+							require_once '../../model/Account.php';
+
+							$acc = unserialize($_SESSION['account']);
+							$accId = $acc->GetID();
 
 							$db = new Database();
+							$bookinfo = 'BOOKINFO';
+							$borrowed = 'BORROWEDBOOK';
 
-							$sql = "SELECT * FROM BORROWEDBOOK INNER JOIN BOOKINFO ON BORROWEDBOOK.BOOKID = BOOKINFO.ID WHERE BORROWEDBOOK.ACCID = '$accId' ";
+							$sql = "SELECT $borrowed.ID,$bookinfo.TITLE,$borrowed.CODE FROM $bookinfo INNER JOIN $borrowed ON $bookinfo.ID = $borrowed.BOOKID WHERE $borrowed.ACCID = '$accId'";
 							$result = $db->Query($sql);
 
+							echo '<thead><tr><th>Book\'s name</th><th>Code</th></tr></thead>';
 							if ($result->num_rows > 0) {
 								while ($row = $result->fetch_assoc()) {
-									echo '<thead><tr><th>'.$row['TITLE'].'</th><th></th></tr></thead>';
-									echo '<td class="invert"><div class="rem">';
-									echo '<form action="http://localhost/ooad/controller/DeleteController.php" method="POST">';
-									echo '<input type="submit" value="1" name="id" placeholder="X"></form></div></td></tr>';
+									
+									echo '<tr class="rem1"><td class="invert">'.$row['TITLE'].'</td>';
+									echo '<td class="invert">'.$row['CODE'].'</td>';
+									//echo '<td class="invert"><div class="rem">';
+									//echo '<form action="http://localhost/ooad/controller/DeleteController.php" method="POST">';
+									//echo '<input type="submit" value="X" name="delete" >';
+									//echo '<input type="hidden" value="'.$row['ID'].'" name="id" >';
+									echo '</form></div></td>';
+									echo '</tr>';
 								}
 							}
 						?>
@@ -276,17 +180,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="checkout-left">	
 				<div class="checkout-left-basket">
-					<h4>Continue to basket</h4>
-					<ul>
-						<li>Product1 <i>-</i> <span>$15.00 </span></li>
-						<li>Product2 <i>-</i> <span>$25.00 </span></li>
-						<li>Product3 <i>-</i> <span>$29.00 </span></li>
-						<li>Total Service Charges <i>-</i> <span>$15.00</span></li>
-						<li>Total <i>-</i> <span>$84.00</span></li>
-					</ul>
 				</div>
 				<div class="checkout-right-basket">
-					<a href="single.html"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>Continue Shopping</a>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -297,47 +192,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="footer">
 		<div class="container">
 			<div class="w3_footer_grids">
-				<div class="col-md-3 w3_footer_grid">
-					<h3>Contact</h3>
-					
-					<ul class="address">
-						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>1234k Avenue, 4th block, <span>New York City.</span></li>
-						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
-						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 567</li>
-					</ul>
-				</div>
-				<div class="col-md-3 w3_footer_grid">
-					<h3>Information</h3>
-					<ul class="info"> 
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="about.html">About Us</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="contact.html">Contact Us</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="short-codes.html">Short Codes</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="faq.html">FAQ's</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="products.html">Special Products</a></li>
-					</ul>
-				</div>
-				<div class="col-md-3 w3_footer_grid">
-					<h3>Category</h3>
-					<ul class="info"> 
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="groceries.html">Groceries</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="household.html">Household</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="personalcare.html">Personal Care</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="packagedfoods.html">Packaged Foods</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="beverages.html">Beverages</a></li>
-					</ul>
-				</div>
-				<div class="col-md-3 w3_footer_grid">
-					<h3>Profile</h3>
-					<ul class="info"> 
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="products.html">Store</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="checkout.html">My Cart</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="login.html">Login</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="registered.html">Create Account</a></li>
-					</ul>
-					
-					
-				</div>
-				<div class="clearfix"> </div>
+				
 			</div>
 		</div>
 		

@@ -16,9 +16,11 @@
             }
             echo $username;
             //include '../view/main.php';
+
+            header('location: http://localhost/ooad/view/web/products.php');
         }
     //}
 
-    header('location: http://localhost/ooad/view/web/products.php');
+    
     //var_dump($_SESSION['account']);
 ?>
